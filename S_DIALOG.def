@@ -1,0 +1,18 @@
+uint32      unk1
+uint64      gameId
+uint32      type
+uint32      key1
+uint32      key2
+uint32      questTaskId
+uint32      textId
+uint32      id
+bool        autoClose
+uint32      unk2
+uint32      unk3
+uint32      unk4
+uint32      unk5
+
+array buttons
+- uint32    index
+- uint32    type
+- string    text

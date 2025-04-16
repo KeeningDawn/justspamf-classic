@@ -1,0 +1,12 @@
+{
+	"disableAutoUpdate": false,
+	"name": "justspamf-classic",
+	"author": "Dawn / Snug",
+	"version": "1.0",
+	"description": "Allows you to press F for most (if not all) dialog buttons.",
+	"options": {
+		"cliName": "JSF-Classic",
+		"guiName": "Just Spam F (Classic)"
+	},
+	"servers": ["https://raw.githubusercontent.com/KeeningDawn/justspamf-classic/main/"]
+}
