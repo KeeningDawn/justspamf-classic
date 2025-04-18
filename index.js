@@ -6,6 +6,7 @@ module.exports = function JSFClassic(mod) {
 
 	mod.hook('S_DIALOG', 99, (event) => {
 		if (!enabled || !event.buttons.length) return;
+		if (event.type === 5) return;
 
 		const buttons = event.buttons;
 		for (let i = 0, len = buttons.length; i < len; i++) {
